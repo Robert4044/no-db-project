@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "name": "High Life",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDNjN2NjYmItMjAyZi00NmNkLWJmYTQtYzcwZGRiM2RmNGNlXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
+        "description": "High Life is a 2018 science fiction horror film directed by Claire Denis, in her English-language debut, and written by Denis and her long-time collaborator Jean-Pol Fargeau. Starring Robert Pattinson and Juliette Binoche, the film focuses on a group of criminals who are sent on a mission to travel on a spaceship toward a black hole while taking part in scientific experiments."
+    },
+    {
+        "id": 1,
+        "name": "Snowpiercer",
+        "image": "https://static01.nyt.com/images/2014/06/27/arts/27SNOWPIERCER1/SNOWPIERCER1-superJumbo.jpg",
+        "description": " In a future where a failed climate-change experiment has killed all life except for the lucky few who boarded the Snowpiercer, a train that travels around the globe, a new class system emerges."
+    },
+    {
+        "id": 2,
+        "name": "District 9",
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/District_nine_ver2.jpg",
+        "description": "Violence ensues after an extraterrestrial race forced to live in slum-like conditions on Earth finds a kindred spirit in a government agent exposed to their biotechnology."
+    },
+    {
+        "id": 3,
+        "name": "Under The Skin",
+        "image": "https://static.rogerebert.com/uploads/review/primary_image/reviews/under-the-skin-2014/UnderTheSkin-2014-1.jpg",
+        "description": " A mysterious young woman seduces lonely men in the evening hours in Scotland. However, events lead her to begin a process of self-discovery"
+    },
+    {
+        "id": 4,
+        "name": "Sunshine",
+        "image": "https://www.joblo.com/assets/images/oldsite/posters/images/full/2007-sunshine-3.jpg",
+        "description": "A team of international astronauts are sent on a dangerous mission to reignite the dying Sun with a nuclear fission bomb in 2057."
+    },
+    {
+        "id": 5,
+        "name": "Minority Report",
+        "image": "https://cdn.onebauer.media/one/media/5ece/b5ab/e87a/c8fa/db21/50ed/32-minority-report.jpg?quality=50&width=900&ratio=1-1&resizeStyle=aspectfit&format=jpg",
+        "description": "In a future where a special police unit is able to arrest murderers before they commit their crimes, an officer from that unit is himself accused of a future murder."
+    }
+]

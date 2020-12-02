@@ -2,7 +2,7 @@ import React from 'react'
 
 const BasketItem = props => {
     return (
-        <div>
+        <div className='basket-container'>
             <p>Title: {props.item.name}</p>
             <img src={props.item.image} alt='' />
             <p>Release Year: {props.item.year}</p>

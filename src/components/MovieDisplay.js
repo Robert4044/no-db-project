@@ -41,6 +41,12 @@ class MovieDisplay extends Component {
         })
     }
 
+    clearBasket = () => {
+        axios.delete('/api/basket').then(res => {
+            this.setState({ basket: res.data })
+        })
+    }
+
     render() {
         return (
             <div>
@@ -49,7 +55,12 @@ class MovieDisplay extends Component {
                     addToBasket={this.addToBasket}
                 />
 
-                <Basket basket={this.state.basket} />
+                <Basket
+                    basket={this.state.basket}
+                    changeRating={this.changeRating}
+                    removeFromBasket={this.removeFromBasket}
+                    clearBasket={this.clearBasket}
+                />
             </div>
         )
     }

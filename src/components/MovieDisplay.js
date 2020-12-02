@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import axios from 'axios'
 import Movies from './Movies'
+import Basket from './Basket'
+import axios from 'axios'
 
 class MovieDisplay extends Component {
     constructor(props) {
@@ -20,10 +21,35 @@ class MovieDisplay extends Component {
         })
     }
 
+    addToBasket = (id, rating) => {
+        const body = { movie_id: id, rating }
+
+        axios.post('/api/basket', body).then(res => {
+            this.setState({ basket: res.data })
+        })
+    }
+
+    changeRating = (id, action) => {
+        axios.put(`/api/basket/${id}?action=${action}`).then(res => {
+            this.setState({ basket: res.data })
+        })
+    }
+
+    removeFromBasket = id => {
+        axios.delete(`/api/basket/`).then(res => {
+            this.setState({ basket: res.data })
+        })
+    }
+
     render() {
         return (
             <div>
-                <Movies movies={this.state.movies} />
+                <Movies
+                    movies={this.state.movies}
+                    addToBasket={this.addToBasket}
+                />
+
+                <Basket basket={this.state.basket} />
             </div>
         )
     }

@@ -1,11 +1,18 @@
 import React from 'react'
+import Movie from './Movie'
 
-const Movies = ({ movies }) => {
-    console.log(movies)
-    const movieMap = movies.map(movie => {
-        return <Movie key={movie.id} movie={movie} />
+const Movies = props => {
+    console.log(props)
+    const movieMap = props.movies.map(movie => {
+        return (
+            <Movie
+                key={movie.id}
+                movie={movie}
+                addToBasket={props.addToBasket}
+            />
+        )
     })
-    return <div>{movieMap}</div>
+    return <div className='movies-container'>{movieMap}</div> //TODO: Look here
 }
 
 export default Movies

@@ -3,36 +3,105 @@
         "id": 0,
         "name": "High Life",
         "image": "https://m.media-amazon.com/images/M/MV5BMDNjN2NjYmItMjAyZi00NmNkLWJmYTQtYzcwZGRiM2RmNGNlXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
-        "description": "High Life is a 2018 science fiction horror film directed by Claire Denis, in her English-language debut, and written by Denis and her long-time collaborator Jean-Pol Fargeau. Starring Robert Pattinson and Juliette Binoche, the film focuses on a group of criminals who are sent on a mission to travel on a spaceship toward a black hole while taking part in scientific experiments."
+        "year": 2018,
+        "actor": "Robert Pattinson"
     },
     {
         "id": 1,
         "name": "Snowpiercer",
         "image": "https://static01.nyt.com/images/2014/06/27/arts/27SNOWPIERCER1/SNOWPIERCER1-superJumbo.jpg",
-        "description": " In a future where a failed climate-change experiment has killed all life except for the lucky few who boarded the Snowpiercer, a train that travels around the globe, a new class system emerges."
+        "year": 2014,
+        "actor": "Chris Evans"
     },
     {
         "id": 2,
         "name": "District 9",
         "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/District_nine_ver2.jpg",
-        "description": "Violence ensues after an extraterrestrial race forced to live in slum-like conditions on Earth finds a kindred spirit in a government agent exposed to their biotechnology."
+        "year": 2009,
+        "actor": "Sharlto Copley"
     },
     {
         "id": 3,
         "name": "Under The Skin",
         "image": "https://static.rogerebert.com/uploads/review/primary_image/reviews/under-the-skin-2014/UnderTheSkin-2014-1.jpg",
-        "description": " A mysterious young woman seduces lonely men in the evening hours in Scotland. However, events lead her to begin a process of self-discovery"
+        "year": 2014,
+        "actor": "Scarlett Johansson"
     },
     {
         "id": 4,
         "name": "Sunshine",
         "image": "https://www.joblo.com/assets/images/oldsite/posters/images/full/2007-sunshine-3.jpg",
-        "description": "A team of international astronauts are sent on a dangerous mission to reignite the dying Sun with a nuclear fission bomb in 2057."
+        "year": 2007,
+        "actor": "Cillian Murphy"
     },
     {
         "id": 5,
         "name": "Minority Report",
         "image": "https://cdn.onebauer.media/one/media/5ece/b5ab/e87a/c8fa/db21/50ed/32-minority-report.jpg?quality=50&width=900&ratio=1-1&resizeStyle=aspectfit&format=jpg",
-        "description": "In a future where a special police unit is able to arrest murderers before they commit their crimes, an officer from that unit is himself accused of a future murder."
+        "year": 2002,
+        "actor": "Tom Cruise"
+    },
+    {
+        "id": 6,
+        "name": "Another Earth",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/mcdanea_fs003_h-58c00f9f-ed5b-44fe-b0f4-6c3b05213350.jpg?w=1024",
+        "year": 2011,
+        "actor": "Brit Marling"
+    },
+    {
+        "id": 7,
+        "name": "Source Code",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/mcdsoco_ec008_h-989f6342-66b6-4ab6-9b16-1701ce3a073f.jpg?w=1024",
+        "year": 2011,
+        "actor": "Jake Gyllenhaal"
+    },
+    {
+        "id": 8,
+        "name": "Donnie Darko",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140679-20140515-donniedarko-x1800-1400170067-9f306b9c-8588-4f8d-86a1-54ca73600283.jpg?w=500",
+        "year": 2001,
+        "actor": "Jake Gyllenhaal"
+    },
+    {
+        "id": 9,
+        "name": "Monsters",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140667-20140514-monster-x1800-1400096421.jpg?w=1024",
+        "year": 2010,
+        "actor": "Scoot McNairy"
+    },
+    {
+        "id": 10,
+        "name": "Attack the Block",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140666-20140514-attackblock-x1800-1400095318.jpg?w=1024",
+        "year": 2011,
+        "actor": "John Boyega"
+    },
+    {
+        "id": 11,
+        "name": "Primer",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140672-20140515-primer-x1800-1400169742.jpg?w=1024",
+        "year": 2004,
+        "actor": "Shane Carruth"
+    },
+    {
+        "id": 12,
+        "name": "Moon",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140669-20140514-moon-x1800-1400097769.jpg?w=505",
+        "year": 2009,
+        "actor": "Sam Rockwell"
+    },
+    {
+        "id": 13,
+        "name": "The World's End",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140664-20140514-worldend-x1800-1400088451.jpg?w=1024",
+        "year": 2013,
+        "actor": "Simon Pegg"
+    },
+    {
+        "id": 14,
+        "name": "Her",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140680-20140515-her-x1800-1400168974.jpg?w=1024",
+        "year": 2013,
+        "actor": "Joaquin Phoenix"
     }
 ]

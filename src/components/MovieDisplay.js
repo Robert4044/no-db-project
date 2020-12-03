@@ -36,7 +36,7 @@ class MovieDisplay extends Component {
     }
 
     removeFromBasket = id => {
-        axios.delete(`/api/basket/`).then(res => {
+        axios.delete(`/api/basket/${id}`).then(res => {
             this.setState({ basket: res.data })
         })
     }

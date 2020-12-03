@@ -22,9 +22,11 @@ module.exports = {
             movie.rating = rating
             basket.items.push(movie)
             basketId++
-        } else {
-            basket.items[index].rating += rating
         }
+        // else {
+        //     // TODO: check into this
+        //     basket.items[index].rating += rating
+        // }
         res.status(200).send(basket)
     },
     changeRating: (req, res) => {

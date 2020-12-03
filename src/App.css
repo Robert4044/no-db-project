@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Space Grotesk', sans-serif;
+    background-color: #f0ffff;
 }
 
 * {
@@ -27,7 +28,6 @@ body {
 }
 
 .movies-container {
-    /* width: 100vw; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -43,6 +43,9 @@ img {
 .indiv-movies {
     margin: 10px;
 }
+.starring {
+    width: 150px;
+}
 
 .btn {
     width: 150px;
@@ -50,6 +53,14 @@ img {
     border-radius: 2px;
     background-color: #0e3fa9;
     color: #ffa903;
+    cursor: pointer;
+}
+.btn-placement {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn-basket {
 }
 
 .basket-title {
@@ -58,16 +69,16 @@ img {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.movies-basket-container {
+/* .movies-basket-container {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
-/* 
 .basket-container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
     margin-left: 50px;
     margin-right: 50px;
-} */
+    margin-bottom: 25px;
+}

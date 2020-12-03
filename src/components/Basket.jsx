@@ -2,6 +2,7 @@ import React from 'react'
 import BasketItem from './BasketItem'
 
 function Basket(props) {
+    console.log(props)
     const basketMap = props.basket.items.map(element => {
         return (
             <BasketItem
@@ -14,12 +15,16 @@ function Basket(props) {
     })
     return (
         <div>
-            <div className='movies-basket-container'>
-                <h1 className='basket-title'>Basket</h1>
+            <h1 className='basket-title'>Basket</h1>
 
-                <h2>{basketMap}</h2>
+            <h4 className={'basket-container'}>{basketMap}</h4>
+            <div className='btn-placement'>
+                <button
+                    className='btn btn-basket'
+                    onClick={() => props.clearBasket()}>
+                    Clear Basket
+                </button>
             </div>
-            <button onClick={() => props.clearBasket()}>Clear Basket</button>
         </div>
     )
 }

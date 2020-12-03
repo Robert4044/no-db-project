@@ -23,10 +23,7 @@ module.exports = {
             basket.items.push(movie)
             basketId++
         }
-        // else {
-        //     // TODO: check into this
-        //     basket.items[index].rating += rating
-        // }
+
         res.status(200).send(basket)
     },
     changeRating: (req, res) => {
@@ -42,12 +39,8 @@ module.exports = {
         }
         if (action === 'increase') {
             basket.items[index].rating++
-        } else if (action === 'decrease') {
-            if (basket.items[index].rating === 1) {
-                basket.items.splice(index, 1)
-            } else {
-                basket.items[index].rating--
-            }
+        } else if (action === 'decrease' && basket.items[index].rating > 0) {
+            basket.items[index].rating--
         } else {
             return res
                 .status(400)

@@ -20,7 +20,7 @@ function Basket(props) {
             <h4 className={'basket-container'}>{basketMap}</h4>
             <div className='btn-placement'>
                 <button
-                    className='btn btn-basket'
+                    className='btn btn-color'
                     onClick={() => props.clearBasket()}>
                     Clear Basket
                 </button>

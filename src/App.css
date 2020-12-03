@@ -78,11 +78,14 @@ img {
     font-size: 0.9rem;
     cursor: pointer;
     border: none;
+    -webkit-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+    transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
 }
 
 .btn:hover {
     background-color: #fb8122;
     color: #1d2228;
+    box-shadow: 0 0 40px 40px #fb8122 inset;
 }
 
 .btn-placement {
@@ -98,16 +101,18 @@ img {
     color: #1d2228;
     font-weight: bold;
     font-size: 0.9rem;
+    -webkit-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+    transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+}
+.btn-color:hover {
+    background-color: #1d2228;
+    color: #fb8122;
+    box-shadow: 0 0 40px 40px #1d2228 inset;
 }
 
 .title {
     text-align: center;
     margin-bottom: 5px;
-}
-
-.btn-color:hover {
-    background-color: #1d2228;
-    color: #fb8122;
 }
 
 .btn-minus {
@@ -143,4 +148,10 @@ img {
 .btn-rating {
     text-align: center;
     margin-bottom: 10px;
+}
+
+.starring {
+    color: #fb8122;
+    text-transform: uppercase;
+    font-weight: bold;
 }

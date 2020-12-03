@@ -4,6 +4,7 @@
         "name": "High Life",
         "image": "https://m.media-amazon.com/images/M/MV5BMDNjN2NjYmItMjAyZi00NmNkLWJmYTQtYzcwZGRiM2RmNGNlXkEyXkFqcGdeQXVyODUxNjcxNjE@._V1_.jpg",
         "year": 2018,
+        "link": "https://www.rottentomatoes.com/m/high_life_2019",
         "actor": "Robert Pattinson"
     },
     {
@@ -11,6 +12,7 @@
         "name": "Snowpiercer",
         "image": "https://static01.nyt.com/images/2014/06/27/arts/27SNOWPIERCER1/SNOWPIERCER1-superJumbo.jpg",
         "year": 2014,
+        "link": "https://www.rottentomatoes.com/m/snowpiercer",
         "actor": "Chris Evans"
     },
     {
@@ -18,6 +20,7 @@
         "name": "District 9",
         "image": "https://upload.wikimedia.org/wikipedia/en/d/d7/District_nine_ver2.jpg",
         "year": 2009,
+        "link": "https://www.rottentomatoes.com/m/district_9",
         "actor": "Sharlto Copley"
     },
     {
@@ -25,6 +28,7 @@
         "name": "Under The Skin",
         "image": "https://static.rogerebert.com/uploads/review/primary_image/reviews/under-the-skin-2014/UnderTheSkin-2014-1.jpg",
         "year": 2014,
+        "link": "https://www.rottentomatoes.com/m/under_the_skin_2013",
         "actor": "Scarlett Johansson"
     },
     {
@@ -32,6 +36,7 @@
         "name": "Sunshine",
         "image": "https://www.joblo.com/assets/images/oldsite/posters/images/full/2007-sunshine-3.jpg",
         "year": 2007,
+        "link": "https://www.rottentomatoes.com/m/sunshine",
         "actor": "Cillian Murphy"
     },
     {
@@ -39,6 +44,7 @@
         "name": "Minority Report",
         "image": "https://cdn.onebauer.media/one/media/5ece/b5ab/e87a/c8fa/db21/50ed/32-minority-report.jpg?quality=50&width=900&ratio=1-1&resizeStyle=aspectfit&format=jpg",
         "year": 2002,
+        "link": "https://www.rottentomatoes.com/m/minority_report",
         "actor": "Tom Cruise"
     },
     {
@@ -46,6 +52,7 @@
         "name": "Another Earth",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/mcdanea_fs003_h-58c00f9f-ed5b-44fe-b0f4-6c3b05213350.jpg?w=1024",
         "year": 2011,
+        "link": "https://www.rottentomatoes.com/m/another_earth",
         "actor": "Brit Marling"
     },
     {
@@ -53,6 +60,7 @@
         "name": "Source Code",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/mcdsoco_ec008_h-989f6342-66b6-4ab6-9b16-1701ce3a073f.jpg?w=1024",
         "year": 2011,
+        "link": "https://www.rottentomatoes.com/m/source_code",
         "actor": "Jake Gyllenhaal"
     },
     {
@@ -60,6 +68,7 @@
         "name": "Donnie Darko",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140679-20140515-donniedarko-x1800-1400170067-9f306b9c-8588-4f8d-86a1-54ca73600283.jpg?w=500",
         "year": 2001,
+        "link": "https://www.rottentomatoes.com/m/donnie_darko_15th_anniversary",
         "actor": "Jake Gyllenhaal"
     },
     {
@@ -67,6 +76,7 @@
         "name": "Monsters",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140667-20140514-monster-x1800-1400096421.jpg?w=1024",
         "year": 2010,
+        "link": "https://www.rottentomatoes.com/m/monsters-2010",
         "actor": "Scoot McNairy"
     },
     {
@@ -74,6 +84,7 @@
         "name": "Attack the Block",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140666-20140514-attackblock-x1800-1400095318.jpg?w=1024",
         "year": 2011,
+        "link": "https://www.rottentomatoes.com/m/attack_the_block",
         "actor": "John Boyega"
     },
     {
@@ -81,6 +92,7 @@
         "name": "Primer",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140672-20140515-primer-x1800-1400169742.jpg?w=1024",
         "year": 2004,
+        "link": "https://www.rottentomatoes.com/m/primer",
         "actor": "Shane Carruth"
     },
     {
@@ -88,6 +100,7 @@
         "name": "Moon",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140669-20140514-moon-x1800-1400097769.jpg?w=505",
         "year": 2009,
+        "link": "https://www.rottentomatoes.com/m/moon",
         "actor": "Sam Rockwell"
     },
     {
@@ -95,6 +108,7 @@
         "name": "The World's End",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140664-20140514-worldend-x1800-1400088451.jpg?w=1024",
         "year": 2013,
+        "link": "https://www.rottentomatoes.com/m/the_worlds_end",
         "actor": "Simon Pegg"
     },
     {
@@ -102,6 +116,7 @@
         "name": "Her",
         "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-140680-20140515-her-x1800-1400168974.jpg?w=1024",
         "year": 2013,
+        "link": "https://www.rottentomatoes.com/m/her",
         "actor": "Joaquin Phoenix"
     }
 ]

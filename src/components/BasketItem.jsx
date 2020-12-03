@@ -8,7 +8,12 @@ const BasketItem = props => {
                 <div className='img-title'>
                     <p>{props.item.name}</p>
                 </div>
-                <img src={props.item.image} alt='' />
+                <p>
+                    {' '}
+                    <a href={props.item.link} target='blank'>
+                        <img src={props.item.image} alt='' />
+                    </a>
+                </p>
             </div>
             <div className='basket-info'>
                 <p>Release Year: {props.item.year}</p>

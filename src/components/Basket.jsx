@@ -2,11 +2,10 @@ import React from 'react'
 import BasketItem from './BasketItem'
 
 function Basket(props) {
-    console.log(props)
     const basketMap = props.basket.items.map(element => {
         return (
             <BasketItem
-                key={element.basket_id}
+                key={element.id}
                 item={element}
                 changeRating={props.changeRating}
                 removeFromBasket={props.removeFromBasket}

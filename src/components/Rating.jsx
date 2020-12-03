@@ -19,8 +19,8 @@ class Rating extends React.Component {
 
         return (
             <div>
-                {/* <h2>Rating from state: {rating}</h2> */}
                 <StarRatingComponent
+                    className='rating'
                     name='rate1'
                     starCount={10}
                     value={rating}

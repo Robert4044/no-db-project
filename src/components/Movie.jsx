@@ -21,7 +21,9 @@ class Movie extends Component {
                         src={this.props.movie.image}
                         alt=''
                         className='img'></img>
-                    <p>{this.props.movie.name.toUpperCase()}</p>
+                    <p className='title'>
+                        {this.props.movie.name.toUpperCase()}
+                    </p>
                 </section>
 
                 <button

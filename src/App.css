@@ -41,13 +41,31 @@ body {
 img {
     width: 150px;
     height: 150px;
+    border-radius: 8px;
+
+    box-shadow: 4px 5px 5px -2px rgba(0, 0, 0, 0.56);
 }
 .indiv-movies {
     margin: 10px;
     font-weight: bold;
+    line-height: 25px;
 }
-.starring {
-    width: 150px;
+
+.basket-info {
+    line-height: 30px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.title-image {
+    margin: 10px;
+    text-align: center;
+}
+.img-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .btn {
@@ -82,6 +100,11 @@ img {
     font-size: 0.9rem;
 }
 
+.title {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 .btn-color:hover {
     background-color: #1d2228;
     color: #fb8122;
@@ -107,16 +130,17 @@ img {
     margin-bottom: 25px;
     color: #1d2228;
 }
-/* .movies-basket-container {
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 .basket-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-top: 25px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 25px;
+}
+.btn-rating {
+    text-align: center;
+    margin-bottom: 10px;
 }

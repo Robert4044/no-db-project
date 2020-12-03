@@ -2,7 +2,6 @@ import React from 'react'
 import Movie from './Movie'
 
 const Movies = props => {
-    console.log(props)
     const movieMap = props.movies.map(movie => {
         return (
             <Movie

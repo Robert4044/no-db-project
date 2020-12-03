@@ -30,9 +30,14 @@ class MovieDisplay extends Component {
     }
 
     changeRating = (id, action) => {
-        axios.put(`/api/basket/${id}?action=${action}`).then(res => {
-            this.setState({ basket: res.data })
-        })
+        axios
+            .put(`/api/basket/${id}?action=${action}`)
+            .then(res => {
+                this.setState({ basket: res.data })
+            })
+            .catch(err => {
+                console.log(err)
+            })
     }
 
     removeFromBasket = id => {

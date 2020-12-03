@@ -24,6 +24,7 @@ class Rating extends React.Component {
                     name='rate1'
                     starCount={10}
                     value={rating}
+                    starColor='#fb8122'
                     onStarClick={this.onStarClick}
                     renderStarIcon={(index, value) => {
                         return (

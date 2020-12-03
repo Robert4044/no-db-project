@@ -11,10 +11,11 @@ const BasketItem = props => {
             <p>User Rating: {props.item.rating}</p>
             <div>
                 <button
+                    className='btn-minus'
                     onClick={() =>
                         props.changeRating(props.item.id, 'decrease')
                     }>
-                    -
+                    <i class='fas fa-user-minus fa-lg'></i>
                 </button>
                 <button
                     className='btn btn-basket'
@@ -22,10 +23,11 @@ const BasketItem = props => {
                     Remove
                 </button>
                 <button
+                    className='btn-minus'
                     onClick={() =>
                         props.changeRating(props.item.id, 'increase')
                     }>
-                    +
+                    <i class='fas fa-user-plus fa-lg'></i>
                 </button>
                 <Rating />
             </div>

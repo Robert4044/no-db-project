@@ -37,7 +37,7 @@ module.exports = {
         if (index === -1) {
             return res.status(404).send('Movie not in basket')
         }
-        if (action === 'increase') {
+        if (action === 'increase' && basket.items[index].rating <= 10 - 1) {
             basket.items[index].rating++
         } else if (action === 'decrease' && basket.items[index].rating > 0) {
             basket.items[index].rating--
